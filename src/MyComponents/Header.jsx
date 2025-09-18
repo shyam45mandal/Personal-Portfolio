@@ -17,7 +17,7 @@ function Header() {
   };
 
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className="px-3">
+    <Navbar bg="black" variant="dark" expand="lg" sticky="top" className="px-3">
       <Container fluid>
         {/* Brand */}
         <Navbar.Brand
