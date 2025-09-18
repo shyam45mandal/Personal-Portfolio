@@ -1,6 +1,6 @@
 
 .home {
-    margin-top: px;
+  margin-top: 10px;
   display: flex;            
   justify-content: center;   
   align-items: center;        
@@ -57,10 +57,6 @@
     margin: 1rem auto;  
   }
 }
-
-
-
-
 .homeprofile-img img {
   transition: transform 0.3s ease, 
               box-shadow 0.3s ease, 
