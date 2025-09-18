@@ -24,7 +24,7 @@ Welcome to my personal portfolio website built with **Vite** and **React**. This
 ---
 
 ## 📂 Project Structure
-
+'''
 my-portfolio-app/
 ├─ public/
 ├─ src/
@@ -35,4 +35,4 @@ my-portfolio-app/
 │ └─ main.jsx
 ├─ package.json
 ├─ vite.config.js
-└─ README.md
+└─ README.md '''
