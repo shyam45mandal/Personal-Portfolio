@@ -1,12 +1,12 @@
-/* Parent container */
+
 .home {
     margin-top: px;
-  display: flex;              /* Enables flexbox */
-  justify-content: center;    /* Center horizontally */
-  align-items: center;        /* Center vertically */
+  display: flex;           
+  justify-content: center;  
+  align-items: center;        
   height: 250px; 
-  padding: 20px 0;       /* give breathing space instead of fixed height */
-  height: auto;                       /* Full screen height */
+  padding: 20px 0;       
+  height: auto;                       
   
 }
 
@@ -39,24 +39,24 @@
 
 
 .paraintro {
-  font-size: 1.1rem;        /* scalable font */
-  max-width: 700px;          /* prevents stretching on large screens */
-  width: 90%;                /* almost full width on mobile */
-  margin: 1rem auto;         /* centers horizontally and adds spacing */
-  line-height: 1.6;          /* readable spacing */
-  text-align: center;        /* center on mobile by default */
+  font-size: 1.1rem;        
+  max-width: 700px;          
+  width: 90%;                
+  margin: 1rem auto;         
+  line-height: 1.6;          
+  text-align: center;        
 }
 
-/* Desktop adjustment */
+
 @media (max-width: 768px) {
   .paraintro {
-    width: 90vw;       /* almost full width on mobile */
-    height: auto;      /* let it expand naturally */
-    font-size: 1rem;   /* slightly smaller font on mobile */
-    line-height: 1.5;  /* spacing for readability */
-    text-align: center; /* center text on small screens */
-    display: block;     /* remove flex centering that caused overlap */
-    margin: 1rem auto;  /* add spacing from top/bottom and center */
+    width: 90vw;      
+    height: auto;      
+    font-size: 1rem;   
+    line-height: 1.5;  
+    text-align: center; 
+    display: block;    
+    margin: 1rem auto;  
   }
 }
 
