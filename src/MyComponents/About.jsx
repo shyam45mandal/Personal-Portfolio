@@ -56,7 +56,7 @@ function About() {
 
             <div className="social-links text-center mt-4">
               <a
-                href="https://github.com/Shyam-Ro45"
+                href="https://github.com/shyam45mandal"
                 className="mx-3 text-decoration-none"
                 style={{ color: "white", fontSize: "2rem" }}
               >
