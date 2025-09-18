@@ -1,0 +1,18 @@
+/* Card hover effect */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px #0dcaf0;
+}
+
+/* Button hover effect */
+.card .btn {
+  transition: opacity 0.3s ease;
+}
+
+.card .btn:hover {
+  opacity: 0.7; /* smooth fade */
+}

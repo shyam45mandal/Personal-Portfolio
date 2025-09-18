@@ -1,0 +1,80 @@
+.Skill {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  
+}
+
+.Skill .S-title h3 {
+  font-weight: 600;
+}
+
+.skillcards .card {
+  width: 18rem;
+  background-color: #212529;
+  color: white;
+  margin-top: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth animation */
+  cursor: pointer;
+}
+
+.skillcards .card:hover {
+  transform: translateY(-10px); /* Lift the card */
+  box-shadow: 0 10px 20px rgba(1, 206, 247, 0.2); /* Blue shadow */
+  background-color: rgba(33, 37, 41, 0.9); /* Slightly lighter */
+}
+
+.skillcards .card h5 {
+ 
+}
+
+.skillcards .custom-list {
+ 
+  list-style-type: decimal;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+/* Optional: Add shadow and border styles */
+.border-info {
+  border-width: 2px !important;
+}
+li{
+  font-size: medium;
+   font-family: 'Baloo Bhai 2', cursive !important;
+}
+.custom-list {
+  list-style: decimal inside;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-list li {
+  position: relative;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  background: #212529; /* fallback bg */
+  color: white;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+.custom-list li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: var(--percent, 0%);
+  background: #0dcaf0; /* cyan progress color */
+  opacity: 0.3;
+  z-index: 0;
+  transition: width 0.5s ease;
+  border-radius: 8px;
+}
+
+.custom-list li span {
+  position: relative;
+  z-index: 1;
+}

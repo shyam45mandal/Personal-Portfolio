@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* keeps layouts consistent */
+}
+
+body {
+  background-color: #212529; /* dark background */
+  color: #fff; /* white text for contrast */
+  font-family: 'Baloo Bhai 2', cursive !important;
+  line-height: 1.6; /* better readability */
+}
+h1, h2, h3, h4, h5, h6,p ,Form,span{
+  font-family: 'Baloo Bhai 2', cursive;
+}

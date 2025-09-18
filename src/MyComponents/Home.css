@@ -1,0 +1,85 @@
+/* Parent container */
+.home {
+    margin-top: px;
+  display: flex;              /* Enables flexbox */
+  justify-content: center;    /* Center horizontally */
+  align-items: center;        /* Center vertically */
+  height: 250px; 
+  padding: 20px 0;       /* give breathing space instead of fixed height */
+  height: auto;                       /* Full screen height */
+  
+}
+
+
+.homeprofile-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50%;         
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+}
+
+
+.homeprofile-img img {
+  max-width: 400px;          
+  border-radius: 50%;         
+  border: 4px solid #17a2b8; 
+}
+.Intro {
+  margin-top: 5px;      
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+  height: auto;          
+}
+
+
+
+.paraintro {
+  font-size: 1.1rem;        /* scalable font */
+  max-width: 700px;          /* prevents stretching on large screens */
+  width: 90%;                /* almost full width on mobile */
+  margin: 1rem auto;         /* centers horizontally and adds spacing */
+  line-height: 1.6;          /* readable spacing */
+  text-align: center;        /* center on mobile by default */
+}
+
+/* Desktop adjustment */
+@media (max-width: 768px) {
+  .paraintro {
+    width: 90vw;       /* almost full width on mobile */
+    height: auto;      /* let it expand naturally */
+    font-size: 1rem;   /* slightly smaller font on mobile */
+    line-height: 1.5;  /* spacing for readability */
+    text-align: center; /* center text on small screens */
+    display: block;     /* remove flex centering that caused overlap */
+    margin: 1rem auto;  /* add spacing from top/bottom and center */
+  }
+}
+
+
+
+
+.homeprofile-img img {
+  transition: transform 0.3s ease, 
+              box-shadow 0.3s ease, 
+              border 0.3s ease,
+              opacity 0.3s ease;
+  cursor: pointer;
+  border: 4px solid transparent;   
+  border-radius: 50%;              
+}
+
+.homeprofile-img img:hover {
+  transform: scale(1.1);
+  opacity: 0.8; 
+  box-shadow: 0 8px 25px rgba(13, 202, 240, 0.5); 
+  border: 4px solid #0dcaf0; 
+}
+.shortintro{
+    margin-top: 20px;
+}
+
