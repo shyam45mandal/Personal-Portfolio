@@ -37,7 +37,7 @@ function Footer() {
               <a href="https://github.com/shyam45mandal" target="_blank" rel="noreferrer">
                 <FaGithub size={24} className="text-info" />
               </a>
-              <a href="https://www.linkedin.com/in/shyam45mandal/" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/shyam-kumar-mandal-b35951290/" target="_blank" rel="noreferrer">
                 <FaLinkedin size={24} className="text-info" />
               </a>
             </div>
