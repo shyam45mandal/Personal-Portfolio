@@ -1,6 +1,13 @@
-# Shyam Kumar Mandal - Personal Portfolio
+# 🎨 Shyam Kumar Mandal - Personal Portfolio  
 
-Welcome to my personal portfolio website built with **Vite** and **React**. This website showcases my projects, skills, qualifications, and contact information.
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://reactjs.org/)  
+[![Vite](https://img.shields.io/badge/Vite-4-brightgreen?logo=vite)](https://vitejs.dev/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)  
+[![GitHub stars](https://img.shields.io/github/stars/shyam45mandal/Personal-Portfolio?style=social)](https://github.com/shyam45mandal/Personal-Portfolio/stargazers)  
+
+A **personal portfolio website** built with **React and Vite**, showcasing my projects, skills, qualifications, and contact info.  
+
+🌐 **Live Demo:** [Personal Portfolio](https://personal-portfolio-seven-psi-89.vercel.app/)  
 
 ---
 
