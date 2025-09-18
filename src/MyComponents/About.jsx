@@ -1,8 +1,6 @@
 import React from "react";
 import myImage from "../assets/aboutimg.png";
 
- // Make sure path is correct
-// optional if you have custom CSS
 import "./About.css";
 function About() {
   return (
@@ -48,7 +46,7 @@ function About() {
 
           </div>
 
-          {/* Right image + social links */}
+        
           <div className="col-lg-4 text-center">
             <div className="myimg">
               <img src={myImage} alt="My Photo" className="img-fluid" />
@@ -56,7 +54,7 @@ function About() {
 
             <div className="social-links text-center mt-4">
               <a
-                href="https://github.com/Shyam-Ro45"
+                href="https://github.com/shyam45mandal"
                 className="mx-3 text-decoration-none"
                 style={{ color: "white", fontSize: "2rem" }}
               >

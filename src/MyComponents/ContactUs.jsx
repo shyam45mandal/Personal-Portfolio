@@ -8,8 +8,7 @@ import {
   Alert,
   Spinner,
 } from "react-bootstrap";
-// Make sure Bootstrap Icons CSS is imported in index.html or index.js:
-// index.html → <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+
 import "./Contacts.css";
 export default function ContactUs() {
   const [status, setStatus] = useState({
@@ -45,14 +44,14 @@ export default function ContactUs() {
 
   return (
     <Container className="py-5" id="contact">
-      {/* Section Heading */}
+  
       <div className=" mb-4">
         <h2 className="fw-bold">Contact Me</h2>
         <hr style={{ borderTop: "7px solid #01caf7", width: "120px" }} />
       </div>
 
       <Row>
-        {/* Left column */}
+        
         <Col md={6} className="mb-4">
           <h3 className="mb-3 text-info fw-semibold">Let’s Talk</h3>
           <p className="me-4">
@@ -88,7 +87,7 @@ export default function ContactUs() {
           </div>
         </Col>
 
-        {/* Right column */}
+      
         <Col md={6}>
           {status.done && (
             <Alert variant="success">Message sent successfully!</Alert>

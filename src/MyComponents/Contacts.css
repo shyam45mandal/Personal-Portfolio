@@ -30,28 +30,28 @@ p {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
-  color: white; /* default text color */
-  font-size: 1.3rem; /* optional, similar to fs-4 */
+  color: white; 
+  font-size: 1.3rem; 
 }
 
 .contact-item i {
-  font-size: 2rem; /* optional, similar to fs-3 */
+  font-size: 2rem;
   margin-right: 1rem;
-  color: white; /* default icon color */
-  transition: color 0.3s ease, transform 0.3s ease; /* smooth color + movement */
+  color: white;
+  transition: color 0.3s ease, transform 0.3s ease; 
   cursor: pointer;
 }
 
 .contact-item:hover i {
-  color: #0dcaf0; /* info blue on hover */
+  color: #0dcaf0; 
  
 }
 .custom-submit-btn {
-  transition: opacity 0.3s ease; /* smooth transition */
+  transition: opacity 0.3s ease;
 }
 
 .custom-submit-btn:hover {
-  opacity: 0.7; /* reduce opacity on hover */
+  opacity: 0.7; 
 }
 
 

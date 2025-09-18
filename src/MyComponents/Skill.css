@@ -14,19 +14,17 @@
   background-color: #212529;
   color: white;
   margin-top: 1rem;
-  transition: transform 0.3s, box-shadow 0.3s; /* Smooth animation */
+  transition: transform 0.3s, box-shadow 0.3s; 
   cursor: pointer;
 }
 
 .skillcards .card:hover {
-  transform: translateY(-10px); /* Lift the card */
-  box-shadow: 0 10px 20px rgba(1, 206, 247, 0.2); /* Blue shadow */
-  background-color: rgba(33, 37, 41, 0.9); /* Slightly lighter */
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(1, 206, 247, 0.2); 
+  background-color: rgba(33, 37, 41, 0.9); 
 }
 
-.skillcards .card h5 {
- 
-}
+
 
 .skillcards .custom-list {
  
@@ -35,7 +33,7 @@
   margin: 0;
 }
 
-/* Optional: Add shadow and border styles */
+
 .border-info {
   border-width: 2px !important;
 }
@@ -54,7 +52,7 @@ li{
   padding: 8px 12px;
   margin-bottom: 8px;
   border-radius: 8px;
-  background: #212529; /* fallback bg */
+  background: #212529; 
   color: white;
   font-weight: 500;
   overflow: hidden;
@@ -67,7 +65,7 @@ li{
   left: 0;
   height: 100%;
   width: var(--percent, 0%);
-  background: #0dcaf0; /* cyan progress color */
+  background: #0dcaf0; 
   opacity: 0.3;
   z-index: 0;
   transition: width 0.5s ease;

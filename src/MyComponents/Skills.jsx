@@ -86,7 +86,7 @@ function Skills() {
               </div>
             </div>
 
-            {/* Overview */}
+          
             <div className="card mt-4 border border-2 border-info shadow-info">
               <div className="card-body">
                 <h5 className="card-title text-info text-center mb-3 fw-semibold">

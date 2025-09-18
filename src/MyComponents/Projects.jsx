@@ -40,7 +40,7 @@ const mlProjects = [
   },
 ];
 
-const allProjects = [...mlProjects, ...webProjects]; // Combine both arrays
+const allProjects = [...mlProjects, ...webProjects]; 
 
 const ProjectSection = ({ title, projects }) => {
   const words = title.split(" ");
@@ -50,7 +50,7 @@ const ProjectSection = ({ title, projects }) => {
       <div className="d-flex justify-content-center mb-4">
         <h3 className="text-center fw-semibold">
           {words.map((word, idx) => {
-            // Make "Machine" and "Web" info blue
+            
             if (
               word.toLowerCase().includes("machine") ||
               word.toLowerCase().includes("web")
@@ -129,7 +129,7 @@ function Projects() {
       </div>
       <hr style={{ borderTop: "7px solid #01cef7", width: "120px" }} />
 
-      {/* Single combined heading with all projects */}
+      
       <ProjectSection
         title="Machine Learning and Web Development"
         projects={allProjects}

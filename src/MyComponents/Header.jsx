@@ -17,9 +17,9 @@ function Header() {
   };
 
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className="px-3">
+    <Navbar bg="black" variant="dark" expand="lg" sticky="top" className="px-3">
       <Container fluid>
-        {/* Brand */}
+        
         <Navbar.Brand
           onClick={() => scrollToSection("Home")}
           className="fs-4"
@@ -30,11 +30,11 @@ function Header() {
           </h2>
         </Navbar.Brand>
 
-        {/* Mobile toggle */}
+    
         <Navbar.Toggle aria-controls="navbarSupportedContent" />
 
         <Navbar.Collapse id="navbarSupportedContent">
-          {/* Center Nav Links */}
+        
           <Nav className="mx-auto text-center">
             <Nav.Link
               onClick={() => scrollToSection("Home")}
@@ -72,7 +72,7 @@ function Header() {
             </Nav.Link>
           </Nav>
 
-          {/* Profile image aligned right */}
+        
           <Nav.Link onClick={() => scrollToSection("Home")}>
             
                       <div className="profile-img text-center text-lg-end mt-3 mt-lg-0">
