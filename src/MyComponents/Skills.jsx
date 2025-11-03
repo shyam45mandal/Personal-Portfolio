@@ -54,10 +54,10 @@ function Skills() {
                   Backend and Database (Learning phase)
                 </h5>
                 <ol className="custom-list">
-                  <li style={{ "--percent": "10%" }}>Node.js </li>
-                  <li style={{ "--percent": "10%" }}>Express.js </li>
-                  <li style={{ "--percent": "20%" }}>MongoDB </li>
-                  <li style={{ "--percent": "50%" }}>SQL </li>
+                  <li style={{ "--percent": "70%" }}>Node.js </li>
+                  <li style={{ "--percent": "70%" }}>Express.js </li>
+                  <li style={{ "--percent": "60%" }}>MongoDB </li>
+                  <li style={{ "--percent": "70%" }}>SQL </li>
                 </ol>
               </div>
             </div>
